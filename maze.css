@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+}
+
+#mazeDiv {
+    position: relative;
+}
+
+#avatar {
+    position: absolute; 
+    width: 33px; 
+    height: 33px; 
+    background: url('chok.png'); 
+    background-size: contain; 
+    transition: all 0.1s;
+}
+
+#youWonDiv {
+    position: absolute; 
+    left: 100px; 
+    top: 150px; 
+    width: 500px; 
+    height: 120px; 
+    font-size: 100px; 
+    background: lightgray; 
+    text-align: center; 
+    opacity: 0.9;
+}
+
+.hidden {
+    display: none; 
+}
+
+.row {
+    display: flex; 
+    height: 33px;
+}
+
+.cell {
+    width: 33px; 
+    line-height: 33px;
+    text-align: center;
+}
+
+.W {
+    background: #00356b;
+}
