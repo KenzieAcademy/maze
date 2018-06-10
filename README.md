@@ -28,7 +28,7 @@ There are 4 difficulties:
 - easy
 - medium
 - hard
-- extra-hard
+- epic
 
 Medium is the default. If you complete it and would like to try another
 difficulty, commit your changes and switch to that branch.
