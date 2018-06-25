@@ -27,6 +27,7 @@ for(let row = 0; row < map.length; row++) {
     //   him by updating the "avatarRow" and "avatarCol" variables accordingly.
     //   If done properly, you should see "Chok" drawn above the "S" that you
     //   inserted earlier.
+
     
     for(let i = 0; i < rowStr.length; i++) {
         let cellClass = rowStr[i];
@@ -35,6 +36,10 @@ for(let row = 0; row < map.length; row++) {
         cellDiv.className = "cell " + cellClass;
 
         rowDiv.appendChild(cellDiv);
+        if (row === 9 && i === 0) {
+            cellDiv.textContent = "S";
+        }
+
     }
 
     mazeDiv.appendChild(rowDiv);
